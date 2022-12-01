@@ -1,0 +1,207 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .anaSayfa {
+    height: 650px;
+  }
+}
+
+@media (max-width: 991px) {
+  .anaSayfa {
+    background-image: none;
+
+    height: 650px;
+  }
+  .Hizmetlerimiz {
+    height: 1070px;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+    height: 650px;
+  }
+
+  .anaSayfa_text {
+    height: 650px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+    height: 650px;
+  }
+
+  .anaSayfa_text {
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    height: 650px;
+  }
+
+  .anaSayfa_text_iç {
+    vertical-align: middle;
+    padding-top: 0;
+    display: table-cell;
+  }
+
+  .anaSayfa_text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .anaSayfa_text .btn_1 {
+    margin-top: 20px;
+  }
+
+  .anaSayfa_img {
+    display: none;
+  }
+
+  .firma {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .anaSayfa_text h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .anaSayfa_text_iç p {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .padding_top {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about {
+    height: 650px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .gallery .gallery_flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-wrap {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .hidden_iletişim {
+    display: none;
+  }
+  .gallery {
+    margin-bottom: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .gallery {
+    background-image: none;
+    margin-top: 100px;
+  }
+
+  .gallery .gallery_flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery .gallery_flex {
+    margin-left: 85px;
+  }
+
+  .btn_3 {
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    background-image: none;
+  }
+
+  .gallery {
+    padding-top: 130px;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+
+  .section_title {
+    margin-top: 320px;
+  }
+
+  .hizmet_imgs {
+    background-image: none;
+  }
+
+  .gallery {
+    margin-top: 250px;
+  }
+
+  .img-comp-slider {
+    width: 300px;
+    height: 300px;
+  }
+
+  .container-fluid {
+    margin-top: 250px;
+  }
+  .abc {
+    display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+  .anaSayfa_text h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .anaSayfa_text_iç p {
+    margin-bottom: 0px;
+  }
+
+  .firma_baslik {
+    margin-top: -30px;
+    margin-bottom: 0px;
+  }
+
+  .img-comp-slider {
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn_3 {
+    padding-right: 45px;
+    border-radius: 100px;
+    margin-right: 50px;
+  }
+
+  .gallery {
+    margin-bottom: -150px;
+  }
+
+  .firma {
+    display: none;
+  }
+}

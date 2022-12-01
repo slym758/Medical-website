@@ -1,0 +1,126 @@
+.hakkımızda {
+  background-image: url(../img/1.png);
+  color: black;
+}
+.hakkımızda .section_titlee h2 {
+  color: rgb(0, 0, 0);
+  font-size: 55px;
+}
+
+.hakkımızda .section_titlee {
+  margin-top: 150px;
+}
+
+.hakkımızda .bos {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 5px;
+  background-color: rgb(158, 35, 189);
+}
+
+.hakkımızda {
+  background-image: url(../img/anaSayfa.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.hakkımızda_part {
+  height: 380px;
+  width: 680px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(161, 21, 207, 0.6) 40%
+  );
+  backdrop-filter: blur(3.5px);
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  border-radius: 30px;
+  margin-bottom: 2rem;
+  overflow: visible;
+  position: relative;
+  justify-content: center;
+
+  color: #fff;
+
+  position: relative;
+  transition: 0.6s;
+}
+
+.hakkımızda_part h4 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 19px;
+  left: 15px;
+}
+
+.hakkımızda_part p {
+  font-size: 20px;
+  margin-left: 15px;
+  padding-top: 100px;
+}
+
+.footer {
+  margin-top: 105px;
+}
+
+@media (max-width: 1650px) {
+  .about_img_alt {
+    max-width: 90%;
+  }
+
+  .hakkımızda_part {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .about_img_alt {
+    max-width: 80%;
+  }
+
+  .hakkımızda_part {
+    max-width: 80%;
+    height: 550px;
+  }
+
+  .row {
+    height: 10%;
+  }
+}
+
+@media (max-width: 745px) {
+  .about_img_alt {
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+  .hakkımızda_part {
+    margin-left: 120px;
+    height: 470px;
+    width: 470px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about_img_alt {
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+
+  .hakkımızda_part {
+    margin-left: 56px;
+    height: 551px;
+    width: 369px;
+  }
+
+  .nav-menu .nav_menu_item {
+    display: none;
+  }
+
+  .social-links {
+    display: block;
+  }
+}

@@ -1,0 +1,125 @@
+.nav-menu {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.tuttur {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.navbar {
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 3rem;
+}
+
+.navbar a {
+  color: #fff;
+
+  margin: 0 0.3rem;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid var(--warning);
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .brand {
+  font-weight: 400;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+}
+
+.navbar img {
+  width: 65px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+  font-size: 20px;
+}
+
+.nav-menu a {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #45505b;
+  padding: 10px 18px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  border-radius: 50px;
+  border: 2px solid #45505b;
+  height: 56px;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.nav-menu a:hover {
+  color: #f2f3f5;
+  background-image: -moz-linear-gradient(left, #ff512f, #dd2476);
+  background-image: -webkit-linear-gradient(left, #ff512f, #dd2476);
+  background-image: linear-gradient(to right, #ff512f, #dd2476);
+}
+.nav-menu .active {
+  color: #f2f3f5;
+  background-image: -moz-linear-gradient(left, #ff512f, #dd2476);
+  background-image: -webkit-linear-gradient(left, #ff512f, #dd2476);
+  background-image: linear-gradient(to right, #ff512f, #dd2476);
+}
+.nav-link:hover {
+  color: #f2f3f5;
+  background-image: -moz-linear-gradient(left, #ff512f, #dd2476);
+  background-image: -webkit-linear-gradient(left, #ff512f, #dd2476);
+  background-image: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.nav-menu a span {
+  display: none;
+  padding: 0 5px 0 7px;
+}
+.nav-menu li:hover span {
+  display: block;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  width: 65px;
+  height: 65px;
+  transition: width 0.6s;
+}
+
+.nav-menu li:hover {
+  transition: width 0.6s;
+  width: 135px;
+}
+
+.social-links .fab {
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #0283da;
+  margin-right: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.6rem;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.giriş .social-links {
+  justify-self: start;
+}
